@@ -1,0 +1,22 @@
+{
+  "name": "dark-bit",
+  "displayName": "dark-bit",
+  "description": "Dark colour theme for VS Code",
+  "version": "0.0.1",
+  "publisher": "varbrad",
+  "engines": {
+    "vscode": "^1.25.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Dark Bit",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Dark Bit-color-theme.json"
+      }
+    ]
+  }
+}
