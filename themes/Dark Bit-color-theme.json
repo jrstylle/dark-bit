@@ -2,10 +2,52 @@
   "name": "Dark Bit",
   "type": "dark",
   "colors": {
-    "editor.background": "#1e1e1e",
-    "editor.foreground": "#d4d4d4",
-    "activityBarBadge.background": "#007acc",
-    "sideBarTitle.foreground": "#bbbbbb"
+    "editor.background": "#000000",
+    "editor.foreground": "#ffffff",
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#a0a0a0",
+    "sideBarSectionHeader.background": "#101010",
+    "sideBarSectionHeader.foreground": "#6a6a6a",
+    "sideBarTitle.foreground": "#6a6a6a",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#474747",
+    "activityBarBadge.background": "#ee47bf",
+    "activityBarBadge.foreground": "#ffffff",
+    "gitDecoration.modifiedResourceForeground": "#fae04e",
+    "editorGutter.modifiedBackground": "#fae04e",
+    "gitDecoration.addedResourceForeground": "#1fdc0e",
+    "gitDecoration.deletedResourceForeground": "#fa764e",
+    "editorGutter.deletedBackground": "#fa764e",
+    "gitDecoration.untrackedResourceForeground": "#5cfa4e",
+    "editorGutter.addedBackground": "#5cfa4e",
+    "gitDecoration.ignoredResourceForeground": "#3f3f3f",
+    "gitDecoration.conflictingResourceForeground": "#ff8400",
+    "statusBar.background": "#101010",
+    "editor.lineHighlightBackground": "#040404",
+    "button.background": "#cc229c",
+    "input.background": "#101010",
+    "input.border": "#474747",
+    "input.foreground": "#999999",
+    "dropdown.background": "#101010",
+    "dropdown.border": "#474747",
+    "dropdown.foreground": "#999999",
+    "focusBorder": "#cc229c",
+    "list.hoverBackground": "#101010",
+    "list.activeSelectionBackground": "#101010",
+    "list.activeSelectionForeground": "#ffffff",
+    "list.inactiveSelectionBackground": "#101010",
+    "list.focusBackground": "#101010",
+    "list.focusForeground": "#ffffff",
+    "list.highlightForeground": "#cc229c",
+    "titleBar.activeBackground": "#000000",
+    "panel.background": "#000000",
+    "tab.inactiveBackground": "#101010",
+    "tab.activeBackground": "#000000",
+    "editor.selectionBackground": "#4d41ba",
+    "editor.selectionHighlightBackground": "#762443",
+    "editor.findMatchBackground": "#41ba63",
+    "editor.findMatchHighlightBackground": "#762443",
+    "editorGroupHeader.tabsBackground": "#101010"
   },
   "tokenColors": [
     {
@@ -22,7 +64,7 @@
       ],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#546E7A"
+        "foreground": "#618778"
       }
     },
     {
@@ -32,7 +74,7 @@
         "string constant.other.placeholder"
       ],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#54ee8c"
       }
     },
     {
@@ -41,7 +83,7 @@
         "constant.other.color"
       ],
       "settings": {
-        "foreground": "#ffffff"
+        "foreground": "#cbd3d3"
       }
     },
     {
@@ -51,7 +93,7 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#cc2241"
       }
     },
     {
@@ -62,7 +104,7 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#7ec6e8"
       }
     },
     {
@@ -82,7 +124,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#cbd6d6"
       }
     },
     {
@@ -93,7 +135,7 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#0066ff"
       }
     },
     {
@@ -106,7 +148,7 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#c398ff"
       }
     },
     {
@@ -115,7 +157,7 @@
         "meta.block variable.other"
       ],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#54ee8c"
       }
     },
     {
@@ -141,7 +183,7 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#F78C6C"
+        "foreground": "#ff0080"
       }
     },
     {
@@ -157,7 +199,7 @@
       ],
       "settings": {
         "fontStyle": "normal",
-        "foreground": "#C3E88D"
+        "foreground": "#65fadf"
       }
     },
     {
@@ -173,7 +215,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#FFCB6B"
+        "foreground": "#e24a4a"
       }
     },
     {
@@ -669,7 +711,7 @@
     {
       "scope": "token.error-token",
       "settings": {
-        "foreground": "#f44747"
+        "foreground": "#ff8400"
       }
     },
     {
