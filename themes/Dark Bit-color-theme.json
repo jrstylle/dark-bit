@@ -23,6 +23,7 @@
     "gitDecoration.ignoredResourceForeground": "#3f3f3f",
     "gitDecoration.conflictingResourceForeground": "#ff8400",
     "statusBar.background": "#101010",
+    "statusBar.foreground": "#474747",
     "editor.lineHighlightBackground": "#040404",
     "button.background": "#cc229c",
     "input.background": "#101010",
