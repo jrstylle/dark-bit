@@ -4,6 +4,10 @@
   "description": "Dark colour theme for VS Code",
   "version": "0.0.1",
   "publisher": "varbrad",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/varbrad/dark-bit"
+  },
   "engines": {
     "vscode": "^1.25.0"
   },
