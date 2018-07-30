@@ -72,10 +72,11 @@
       "name": "Variables",
       "scope": [
         "variable",
-        "string constant.other.placeholder"
+        "string constant.other.placeholder",
+        "meta.block variable.other"
       ],
       "settings": {
-        "foreground": "#54ee8c"
+        "foreground": "#ffffff"
       }
     },
     {
@@ -84,7 +85,7 @@
         "constant.other.color"
       ],
       "settings": {
-        "foreground": "#cbd3d3"
+        "foreground": "#ffe100"
       }
     },
     {
@@ -105,27 +106,43 @@
         "storage.modifier"
       ],
       "settings": {
-        "foreground": "#7ec6e8"
+        "foreground": "#3ee684",
+        "fontStyle": "italic"
       }
     },
     {
-      "name": "Operator, Misc",
+      "name": "Constants",
       "scope": [
-        "keyword.control",
-        "constant.other.color",
+        "constant.other.color"
+      ],
+      "settings": {
+        "foreground": "#f24747"
+      }
+    },
+    {
+      "name": "Punctuation",
+      "scope": [
         "punctuation",
-        "meta.tag",
         "punctuation.definition.tag",
         "punctuation.separator.inheritance.php",
         "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
-        "punctuation.section.embedded",
+        "punctuation.section.embedded"
+      ],
+      "settings": {
+        "foreground": "#ffd23f"
+      }
+    },
+    {
+      "name": "Keywords",
+      "scope": [
+        "keyword.control",
         "keyword.other.template",
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#cbd6d6"
+        "foreground": "#2addcb"
       }
     },
     {
@@ -136,29 +153,19 @@
         "markup.deleted.git_gutter"
       ],
       "settings": {
-        "foreground": "#0066ff"
+        "foreground": "#31ffb0"
       }
     },
     {
       "name": "Function, Special Method",
       "scope": [
-        "entity.name.function",
-        "meta.function-call",
         "variable.function",
+        "entity.name.function",
         "support.function",
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#c398ff"
-      }
-    },
-    {
-      "name": "Block Level Variables",
-      "scope": [
-        "meta.block variable.other"
-      ],
-      "settings": {
-        "foreground": "#54ee8c"
+        "foreground": "#00d0ff",
       }
     },
     {
@@ -175,7 +182,6 @@
       "name": "Number, Constant, Function Argument, Tag Attribute, Embedded",
       "scope": [
         "constant.numeric",
-        "constant.language",
         "support.constant",
         "constant.character",
         "constant.escape",
@@ -184,7 +190,16 @@
         "keyword.other"
       ],
       "settings": {
-        "foreground": "#ff0080"
+        "foreground": "#ff28a5"
+      }
+    },
+    {
+      "name": "Boolean",
+      "scope": [
+        "constant.language"
+      ],
+      "settings": {
+        "foreground": "#daff34",
       }
     },
     {
@@ -196,11 +211,12 @@
         "entity.other.inherited-class",
         "markup.heading",
         "markup.inserted.git_gutter",
+        "meta.tag",
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "fontStyle": "normal",
-        "foreground": "#65fadf"
+        "fontStyle": "italic",
+        "foreground": "#ff7328"
       }
     },
     {
@@ -216,7 +232,7 @@
         "support.type.sys-types"
       ],
       "settings": {
-        "foreground": "#e24a4a"
+        "foreground": "#96fe2e"
       }
     },
     {
@@ -289,7 +305,7 @@
         "entity.other.attribute-name"
       ],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#ff76d1"
       }
     },
     {
